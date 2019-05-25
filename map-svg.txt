@@ -770,3 +770,75 @@
 	v-2l0-2v-2l0-1.7v-1.6v-1.7v-1.7h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1
 	h2.1h2.1h2.1h2.1h2.1h2.1h2.1h2.1l0,3.3l0,3.3l0,3.3l0,3.3l0,3.3l0,3.2l0,3.2L207,99.2z"/>
 </svg>
+
+<style>
+
+
+path{
+
+	fill: #dbdada;
+	transition: 0.3s;
+	stroke: #35393d; 
+
+}
+
+
+</style>
+
+
+<script>
+$(function(){
+	$( ".region-1" ).mouseenter(function() {
+  		$( ".region-1" ).css("fill", "#01558f");
+	});
+
+	$( ".region-1" ).mouseleave(function() {
+  		$( ".region-1" ).css("fill", "#dbdada");
+	});
+
+
+	$( ".region-2" ).mouseenter(function() {
+  		$( ".region-2" ).css( 'fill', '#01558f' );
+	});
+
+	$( ".region-2" ).mouseleave(function() {
+  		$( ".region-2" ).css( 'fill', '#dbdada' );
+	});
+
+	$( ".region-3" ).mouseenter(function() {
+  		$( ".region-3" ).css( 'fill', '#01558f' );
+	});
+
+	$( ".region-3" ).mouseleave(function() {
+  		$( ".region-3" ).css( 'fill', '#dbdada' );
+	});
+
+	$( ".region-4" ).mouseenter(function() {
+  		$( ".region-4" ).css( 'fill', '#01558f' );
+	});
+
+	$( ".region-4" ).mouseleave(function() {
+  		$( ".region-4" ).css( 'fill', '#dbdada' );
+	});
+
+	$( ".region-5" ).mouseenter(function() {
+  		$( ".region-5" ).css( 'fill', '#01558f' );
+	});
+
+	$( ".region-5" ).mouseleave(function() {
+  		$( ".region-5" ).css( 'fill', '#dbdada' );
+	});
+
+	$( ".region-6" ).mouseenter(function() {
+  		$( ".region-6" ).css( 'fill', '#01558f' );
+	});
+
+	$( ".region-6" ).mouseleave(function() {
+  		$( ".region-6" ).css( 'fill', '#dbdada' );
+	});
+ 
+  
+
+})
+
+</script>
