@@ -790,10 +790,12 @@ path{
 $(function(){
 	$( ".region-1" ).mouseenter(function() {
   		$( ".region-1" ).css("fill", "#01558f");
+		$( ".map__contacts-box.region-1" ).css("opacity", "100");
 	});
 
 	$( ".region-1" ).mouseleave(function() {
   		$( ".region-1" ).css("fill", "#dbdada");
+		$( ".map__contacts-box.region-1" ).css("opacity", "0");
 	});
 
 
