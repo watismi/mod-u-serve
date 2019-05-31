@@ -790,14 +790,12 @@ path{
 $(function(){
 	$( ".region-1" ).mouseenter(function() {
   		$( ".region-1" ).css("fill", "#01558f");
-		$( ".map__contacts-box.region-1" ).show();
-		$( ".map__contacts-box.region-1" ).css({"opacity": "100", "transform": "translateY(0px)"});
+		$( ".map__contacts-box.region-1" ).show().css({"opacity": "100", "transform": "translateY(0px)"});
 	});
 
 	$( ".region-1" ).mouseleave(function() {
   		$( ".region-1" ).css("fill", "#dbdada");
-		$( ".map__contacts-box.region-1" ).css({"opacity": "0", "transform": "translateY(50px)"});
-		$( ".map__contacts-box.region-1" ).hide();
+		$( ".map__contacts-box.region-1" ).css({"opacity": "0", "transform": "translateY(20px)"}).delay(300).hide();
 	});
 
 
