@@ -788,9 +788,13 @@ path{
 
 <script>
 $(function(){
-	$( ".region-1" ).mouseenter(function() {
-  		$( ".region-1" ).css("fill", "#01558f");
+	//$( ".region-1" ).mouseenter(function() {
+  		
+	//});
+	$( ".region-1" ).on("mouseover", function () {
+		$( ".region-1" ).css("fill", "#01558f");
 		$( ".map__contacts-box.region-1" ).show().css({"opacity": "100", "transform": "translateY(0px)"});
+	
 	});
 
 	$( ".region-1" ).mouseleave(function() {
