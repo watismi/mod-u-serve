@@ -782,26 +782,44 @@ path{
 
 }
 
+.map__contacts-box{
+	position:relative;
+	z-index:-150;
+}
+
+.map__contacts-box.region-1.hover{
+
+	opacity: 100;
+	transform: translateY(0px);
+	z-index: 150;
+
+}
+
 
 </style>
 
 
 <script>
 $(function(){
-	//$( ".region-1" ).mouseenter(function() {
+	$( ".region-1" ).mouseenter(function() {
+		$( ".map__contacts-box.region-1" ).addClass('hover');
   		
-	//});
-	$( ".region-1" ).on("mouseover", function () {
-		$( ".region-1" ).css("fill", "#01558f");
-		$( ".map__contacts-box.region-1" ).show().css({"opacity": "100", "transform": "translateY(0px)"});
-	
-	});
+	});	
 
 	$( ".region-1" ).mouseleave(function() {
-  		$( ".region-1" ).css("fill", "#dbdada");
-		$( ".map__contacts-box.region-1" ).css({"opacity": "0", "transform": "translateY(20px)"})
-		setTimeout(function() {$( ".map__contacts-box.region-1" ).hide();},300);
+  		$( ".map__contacts-box.region-1" ).removeClass('hover');
 	});
+//	$( ".region-1" ).mouseenter(function() {
+//		$( ".region-1" ).css("fill", "#01558f");
+//		$( ".map__contacts-box.region-1" ).show().css({"opacity": "100", "transform": "translateY(0px)"});
+//  		
+//	});	
+//
+//	$( ".region-1" ).mouseleave(function() {
+//  		$( ".region-1" ).css("fill", "#dbdada");
+//		$( ".map__contacts-box.region-1" ).css({"opacity": "0", "transform": "translateY(20px)"})
+//		setTimeout(function() {$( ".map__contacts-box.region-1" ).hide();},300);
+//	});
 
 
 	$( ".region-2" ).mouseenter(function() {
