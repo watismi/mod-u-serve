@@ -795,7 +795,7 @@ $(function(){
 
 	$( ".region-1" ).mouseleave(function() {
   		$( ".region-1" ).css("fill", "#dbdada");
-		$( ".map__contacts-box.region-1" ).css({"opacity": "100", "transform": "translateY(20px)"})
+		$( ".map__contacts-box.region-1" ).css({"opacity": "0", "transform": "translateY(20px)"})
 		setTimeout(function() {$( ".map__contacts-box.region-1" ).hide();},300);
 	});
 
