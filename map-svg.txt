@@ -783,7 +783,6 @@ path{
 }
 
 .map__contacts-box{
-	position:relative;
 	z-index:-150;
 }
 
