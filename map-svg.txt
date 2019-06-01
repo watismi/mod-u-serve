@@ -211,7 +211,7 @@ $(function(){
 		    region = classes.replace('map__contacts-box ','').replace(' info','')
 		
 		box.removeClass('hover');
-		path.hasClass('region').css( 'fill', '#dbdada' );
+		$('path').hasClass('region').css( 'fill', '#dbdada' );
 		
 	
 	});
