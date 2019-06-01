@@ -813,42 +813,52 @@ $(function(){
 
 	$( ".region-2" ).mouseenter(function() {
   		$( ".region-2" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-2" ).addClass('hover');
 	});
 
 	$( ".region-2" ).mouseleave(function() {
   		$( ".region-2" ).css( 'fill', '#dbdada' );
+		$( ".map__contacts-box.region-2" ).removeClass('hover');
 	});
 
 	$( ".region-3" ).mouseenter(function() {
   		$( ".region-3" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-3" ).addClass('hover');
 	});
 
 	$( ".region-3" ).mouseleave(function() {
   		$( ".region-3" ).css( 'fill', '#dbdada' );
+		$( ".map__contacts-box.region-3" ).removeClass('hover');
 	});
 
 	$( ".region-4" ).mouseenter(function() {
   		$( ".region-4" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-4" ).addClass('hover');
 	});
 
 	$( ".region-4" ).mouseleave(function() {
   		$( ".region-4" ).css( 'fill', '#dbdada' );
+		$( ".map__contacts-box.region-4" ).removeClass('hover');
 	});
 
 	$( ".region-5" ).mouseenter(function() {
   		$( ".region-5" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-5" ).addClass('hover');
 	});
 
 	$( ".region-5" ).mouseleave(function() {
   		$( ".region-5" ).css( 'fill', '#dbdada' );
+		$( ".map__contacts-box.region-5" ).removeClass('hover');
 	});
 
 	$( ".region-6" ).mouseenter(function() {
   		$( ".region-6" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-6" ).addClass('hover');
 	});
 
 	$( ".region-6" ).mouseleave(function() {
   		$( ".region-6" ).css( 'fill', '#dbdada' );
+		$( ".map__contacts-box.region-6" ).removeClass('hover');
 	});
  
   
