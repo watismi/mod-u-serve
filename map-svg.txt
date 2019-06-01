@@ -800,6 +800,10 @@ path{
 
 <script>
 $(function(){
+
+  if($(window).width() > 991){
+  
+  
 	$( ".region-1" ).mouseenter(function() {
 		$( ".region-1" ).css("fill", "#01558f");
 		$( ".map__contacts-box.region-1" ).addClass('hover');
@@ -862,7 +866,7 @@ $(function(){
 	});
  
   
-
+  }
 })
 
 </script>
