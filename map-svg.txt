@@ -786,7 +786,7 @@ path{
 	z-index:-150;
 }
 
-.map__contacts-box.region-1.hover{
+.map__contacts-box.hover{
 
 	opacity: 100;
 	transform: translateY(0px);
