@@ -867,6 +867,53 @@ $(function(){
  
   
   }
+  
+  
+  
+  if($(window).width() <= 991){
+  
+  
+	$( "path.region-1" ).click(function() {
+		$( "path.region-1" ).css("fill", "#01558f");
+		$( ".map__contacts-box.region-1" ).addClass('hover');
+  		
+	});	
+
+
+	$( "path.region-2" ).mouseenter(function() {
+  		$( "path.region-2" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-2" ).addClass('hover');
+	});
+
+
+	$( "path.region-3" ).mouseenter(function() {
+  		$( "path.region-3" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-3" ).addClass('hover');
+	});
+
+
+	$( "path.region-4" ).mouseenter(function() {
+  		$( "path.region-4" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-4" ).addClass('hover');
+	});
+
+
+	$( "path.region-5" ).mouseenter(function() {
+  		$( "path.region-5" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-5" ).addClass('hover');
+	});
+
+
+	$( "path.region-6" ).mouseenter(function() {
+  		$( "path.region-6" ).css( 'fill', '#01558f' );
+		$( ".map__contacts-box.region-6" ).addClass('hover');
+	});
+
+
+  
+  }
+  
+  
 })
 
 </script>
