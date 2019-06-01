@@ -205,8 +205,14 @@ $(function(){
 	});
 	
 	$(".map__contacts-box-bg").click(function(){
-	
-		$(this).parent().removeClass('hover');
+		
+		var box = $(this).parent(),
+		    classes = box.attr('class'),
+		    region = classes.replace('map__contacts-box ','').replace(' info','')
+		
+		box.removeClass('hover');
+		path.hasClass('region').css( 'fill', '#dbdada' );
+		
 	
 	});
 	
