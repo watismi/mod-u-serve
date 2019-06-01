@@ -915,6 +915,13 @@ $(function(){
   		$( "path.region-6" ).css( 'fill', '#01558f' );
 		$( ".map__contacts-box.region-6" ).addClass('hover');
 	});
+	
+	$(".map__contacts-box-bg").click(function(){
+	
+		$(this).parent.removeClass('hover');
+	
+	});
+	
 
 
   
