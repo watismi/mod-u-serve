@@ -795,6 +795,13 @@ path{
 }
 
 
+@media (max-width: 991px){
+.map__contacts-box.hover {
+    z-index: 99999;
+}
+}
+
+
 </style>
 
 
@@ -880,7 +887,7 @@ $(function(){
 	});	
 
 
-	$( "path.region-2" ).mouseenter(function() {
+	$( "path.region-2" ).cli(function() {
   		$( "path.region-2" ).css( 'fill', '#01558f' );
 		$( ".map__contacts-box.region-2" ).addClass('hover');
 	});
